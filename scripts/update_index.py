@@ -52,8 +52,10 @@ def parse_paper_meta(filepath):
     if m:
         meta["published"] = m.group(1)
     
-    # Extract tags
-    m = re.search(r'标签.*?`(.+?)`', content)
+    # Extract tags (support both Chinese 标签 and English Tags)
+    m = re.search(r'(?:标签|Tags)\s*\n+`(.+?)`', content)
+    if not m:
+        m = re.search(r'标签.*?`(.+?)`', content)
     if m:
         meta["tags"] = m.group(1)
     
