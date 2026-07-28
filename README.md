@@ -30,7 +30,8 @@ daily-vision-paper/
 
 | 日期 | 论文标题 | 领域 | 核心关键词 |
 |------|----------|------|-----------|
-| _(每日更新)_ | | | |
+| 2026-07-28 | [Rethinking CFG in On-Policy Diffusion Distillation](papers/2026-07-28-rethinking-cfg-on-policy-diffusion-distillation.md) | 扩散模型蒸馏 | CFG, OPD, NBA, PDM, 视频控制 |
+| _(每日自动更新)_ | | | |
 
 ---
 
