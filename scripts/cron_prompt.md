@@ -14,7 +14,7 @@ Every paragraph should answer: "How would I explain this to a curious friend ove
 2. Select one NOT already covered in `/home/ubuntu/daily-vision-paper/papers/`
 3. Read it deeply (abstract + skim key sections)
 4. Write a **beginner-first analysis** to the repo
-5. Update archive index + git commit & push
+5. Update papers index (`papers/index.md`) + git commit & push
 
 ---
 
@@ -234,6 +234,8 @@ For each method component, strip it to:
 ---
 
 ## Step 5: Update Index
+
+Regenerate `papers/index.md` (the paper archive index):
 
 ```bash
 python3 /home/ubuntu/daily-vision-paper/scripts/update_index.py

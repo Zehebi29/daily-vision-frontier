@@ -35,19 +35,12 @@ def parse_industry_meta(filepath):
     if m:
         meta["title"] = m.group(1).strip()
     
-    # Count entries (h2 headings = sections, but let's count bullet points as items)
-    items = re.findall(r'^- \*\*\[', content)
+    # Count entries (digest items use h3 headings: "### 1. [Name](link)" or "### [Name](link)")
+    items = re.findall(r'^###\s+\d*\.?\s*\[(.+?)\]', content, re.MULTILINE)
     meta["item_count"] = len(items)
     
-    # Extract first few items as highlights
-    highlights = []
-    for line in content.split('\n'):
-        line = line.strip()
-        if line.startswith('- **[') and len(highlights) < 3:
-            # Extract the text between **[...** and the closing
-            m2 = re.search(r'\*\*\[(.+?)\]\(.+?\)\*\*(.+?)(?=\s*$)', line)
-            if m2:
-                highlights.append(f"{m2.group(1)}: {m2.group(2).strip()[:60]}")
+    # Extract first few item names as highlights
+    highlights = items[:3]
     meta["highlights"] = " · ".join(highlights) if highlights else f"{meta['item_count']} items"
     
     return meta

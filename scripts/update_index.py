@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Update archive/index.md with latest paper listing.
+Update papers/index.md with latest paper listing.
 Scans papers/ directory and regenerates the index.
 """
 import os
@@ -9,7 +9,7 @@ from datetime import datetime
 
 REPO_DIR = "/home/ubuntu/daily-vision-paper"
 PAPERS_DIR = os.path.join(REPO_DIR, "papers")
-INDEX_PATH = os.path.join(REPO_DIR, "archive", "index.md")
+INDEX_PATH = os.path.join(PAPERS_DIR, "index.md")
 
 
 def parse_paper_meta(filepath):
@@ -69,13 +69,13 @@ def generate_index():
     
     papers = []
     for fname in sorted(os.listdir(PAPERS_DIR), reverse=True):
-        if fname.endswith(".md") and fname != "README.md":
+        if fname.endswith(".md") and fname not in ("README.md", "index.md"):
             fpath = os.path.join(PAPERS_DIR, fname)
             meta = parse_paper_meta(fpath)
             papers.append(meta)
     
     lines = [
-        "# 📇 论文归档索引",
+        "# 🔬 学术界 · 论文精读归档",
         "",
         f"> 共收录 **{len(papers)}** 篇论文 | 最后更新: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
         "",
