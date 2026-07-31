@@ -228,7 +228,7 @@ For each method component, strip it to:
 
 `视觉` `多模态` `类比驱动` `入门友好`
 
-*分析日期：YYYY-MM-DD | 🤖 分析工具：Hermes Agent*
+*分析日期：YYYY-MM-DD*
 ```
 
 ---

@@ -228,4 +228,4 @@ L_center = MSE(query预测的center - 真实center)
 
 `视觉` `视频实例分割` `查询增强` `Mask2Former` `仅图像训练` `入门友好`
 
-*分析日期：2026-07-28 | 🤖 分析工具：Hermes Agent*
+*分析日期：2026-07-28*

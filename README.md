@@ -27,5 +27,3 @@ daily-vision-paper/
 ```
 
 ---
-
-*Powered by Hermes Agent · arXiv API · Daily Cron*
