@@ -18,12 +18,36 @@ Every paragraph should answer: "How would I explain this to a curious friend ove
 
 ---
 
+## 🎯 选题倾向（优先级）
+
+选论文时**优先**命中以下四个领域（排名分先后，越靠前越优先）：
+
+1. 🏭 **工业缺陷检测（尤其半导体）** — wafer/semiconductor defect inspection, PCB AOI, surface defect detection, industrial anomaly detection
+2. 🔍 **检测/分割模型可解释性** — explainable detection/segmentation, concept-based interpretability, detector failure analysis
+3. 🤖 **视觉 Agent** — vision-language agents, multimodal agents, visual grounding agents, agentic perception
+4. 🎯 **图像的主动学习 / RLHF** — active learning for vision, visual RLHF / preference optimization, feedback-driven image models
+
+只有当优先领域没有合适的论文时，才退回到通用 CV 前沿（diffusion、3D、视频生成、VLM 等）。
+
+---
+
 ## Step 1: Find Papers
 
 Run: `python3 /home/ubuntu/daily-vision-paper/scripts/search_arxiv.py --max 4`
 
-If that fails, use arXiv API directly. Search queries (pick 2-3):
+该脚本已内置优先领域查询，返回的 JSON 中每篇论文带 `priority` 和 `priority_area_name` 字段（`工业缺陷检测(半导体)` / `检测/分割可解释性` / `视觉Agent` / `图像主动学习/RLHF`），优先领域论文排在最前。**优先从 `priority: true` 的论文里选。**
 
+If that fails, use arXiv API directly. Search queries — **优先领域先查**（pick 2-3），通用兜底：
+
+- `cat:cs.CV+AND+all:wafer+AND+all:defect`
+- `cat:cs.CV+AND+all:semiconductor+AND+all:inspection`
+- `cat:cs.CV+AND+all:surface+AND+all:defect+AND+all:detection`
+- `cat:cs.CV+AND+all:explainable+AND+all:detection`
+- `cat:cs.CV+AND+all:interpretable+AND+all:segmentation`
+- `cat:cs.CV+AND+all:vision+AND+all:agent`
+- `cat:cs.CV+AND+all:active+AND+all:learning`
+- `cat:cs.CV+AND+all:rlhf`
+- （以下是通用兜底）
 - `cat:cs.CV+AND+all:vision+language`
 - `cat:cs.CV+AND+all:diffusion`
 - `cat:cs.CV+AND+all:detection+OR+segmentation`
@@ -34,6 +58,7 @@ If that fails, use arXiv API directly. Search queries (pick 2-3):
 ## Step 2: Select
 
 Pick one paper that:
+- **优先选择** JSON 中 `priority: true` 的论文；按领域顺序：工业缺陷检测 > 可解释性 > 视觉Agent > 主动学习/RLHF
 - Has a clear core idea (not overly complex)
 - You can explain via an analogy
 - Is NOT already in `papers/` (check both arXiv ID and title)

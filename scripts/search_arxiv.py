@@ -10,9 +10,13 @@ import sys
 import os
 import re
 import json
+import time
 from datetime import datetime, timedelta
 
 ARXIV_API = "https://export.arxiv.org/api/query"
+# arXiv API rate limit: ~1 request per 3 seconds. Sleep between queries to avoid HTTP 429.
+REQUEST_INTERVAL = 3.0
+_last_request_time = [0.0]
 
 # Major CV/vision categories and keywords
 CATEGORIES = [
@@ -23,6 +27,35 @@ CATEGORIES = [
     "cs.RO",      # Robotics
     "cs.CL",      # Computation & Language (for VLMs)
 ]
+
+# ── Priority research areas (茜茜's focus) — tagged & ranked first ──
+# Each entry: (arxiv query, area key). Order = priority order.
+PRIORITY_QUERIES = [
+    # 1. Industrial defect detection (esp. semiconductor)
+    ("cat:cs.CV+AND+all:wafer+AND+all:defect", "industrial_defect"),
+    ("cat:cs.CV+AND+all:semiconductor+AND+all:inspection", "industrial_defect"),
+    ("cat:cs.CV+AND+all:surface+AND+all:defect+AND+all:detection", "industrial_defect"),
+    ("cat:cs.CV+AND+all:anomaly+AND+all:detection+AND+all:industrial", "industrial_defect"),
+    # 2. Explainability of detection / segmentation
+    ("cat:cs.CV+AND+all:explainable+AND+all:detection", "explainability"),
+    ("cat:cs.CV+AND+all:interpretable+AND+all:segmentation", "explainability"),
+    ("cat:cs.CV+AND+all:explanation+AND+all:object+detection", "explainability"),
+    # 3. Vision agents
+    ("cat:cs.CV+AND+all:vision+AND+all:agent", "vision_agent"),
+    ("cat:cs.AI+AND+all:multimodal+AND+all:agent", "vision_agent"),
+    ("cat:cs.CV+AND+all:visual+AND+all:grounding+AND+all:agent", "vision_agent"),
+    # 4. Active learning / RLHF for images
+    ("cat:cs.CV+AND+all:active+AND+all:learning", "active_learning"),
+    ("cat:cs.CV+AND+all:rlhf", "active_learning"),
+    ("cat:cs.CV+AND+all:preference+AND+all:optimization+AND+all:image", "active_learning"),
+]
+
+PRIORITY_NAMES = {
+    "industrial_defect": "工业缺陷检测(半导体)",
+    "explainability": "检测/分割可解释性",
+    "vision_agent": "视觉Agent",
+    "active_learning": "图像主动学习/RLHF",
+}
 
 CORE_QUERIES = [
     # Vision
@@ -74,9 +107,15 @@ def fetch_arxiv(query: str, max_results: int = 5) -> list:
     })
     url = f"{ARXIV_API}?{params}"
     
+    # Respect arXiv rate limit (1 req / 3s)
+    elapsed = time.time() - _last_request_time[0]
+    if elapsed < REQUEST_INTERVAL:
+        time.sleep(REQUEST_INTERVAL - elapsed)
+    
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "DailyCVPaper/1.0"})
-        resp = urllib.request.urlopen(req, timeout=15)
+        resp = urllib.request.urlopen(req, timeout=20)
+        _last_request_time[0] = time.time()
         xml_data = resp.read().decode("utf-8")
     except Exception as e:
         print(f"  [WARN] Query failed: {query[:60]}... -> {e}", file=sys.stderr)
@@ -166,8 +205,10 @@ def main():
     all_papers = []
     seen_ids = set(existing_ids)  # Don't re-fetch already covered papers
     num_queries_shown = 0
-    
-    for query in CORE_QUERIES:
+
+    # Priority queries first (tagged), then general core queries as fallback
+    all_queries = [(q, area) for q, area in PRIORITY_QUERIES] + [(q, None) for q in CORE_QUERIES]
+    for query, area in all_queries:
         results = fetch_arxiv(query, max_results=args.max)
         for p in results:
             pid = p["id"].split("v")[0]  # Remove version suffix
@@ -176,12 +217,15 @@ def main():
             if not is_recent(p["published"], months=6):
                 continue
             seen_ids.add(pid)
+            p["priority"] = area is not None
+            p["priority_area"] = area
+            p["priority_area_name"] = PRIORITY_NAMES.get(area, "") if area else ""
             all_papers.append(p)
         
         # Brief progress
         num_queries_shown += 1
         if num_queries_shown % 5 == 0:
-            print(f"[INFO] Queried {num_queries_shown}/{len(CORE_QUERIES)} topics, collected {len(all_papers)} candidates so far", file=sys.stderr)
+            print(f"[INFO] Queried {num_queries_shown}/{len(all_queries)} topics, collected {len(all_papers)} candidates so far", file=sys.stderr)
     
     if not all_papers:
         print("[WARN] No new papers found. All recent papers may already be covered.", file=sys.stderr)
@@ -196,8 +240,9 @@ def main():
             seen_titles.add(t)
             unique_papers.append(p)
     
-    # Sort by published date (newest first)
-    unique_papers.sort(key=lambda x: x["published"], reverse=True)
+    # Sort: priority-area papers first (each group newest first)
+    unique_papers.sort(key=lambda x: (0 if x.get("priority") else 1,
+                                      -int(x["published"].replace("-", ""))))
     
     if args.skip > 0 and args.skip < len(unique_papers):
         # Skip the first N to rotate picks
