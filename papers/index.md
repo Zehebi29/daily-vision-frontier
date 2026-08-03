@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **8** 篇论文 | 最后更新: 2026-08-03 10:09
+> 共收录 **9** 篇论文 | 最后更新: 2026-08-03 16:17
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-08-03 | [🔬 AI「高清修复」把芯片缺陷的证据修没了？——质检界的「犯罪现场照片」实验](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-03-waferinspect-sr-evidence-bench.md) | [`2607.17401`](https://arxiv.org/abs/2607.17401) | 视觉 |
 | 2026-08-03 | [🏙️ 给「画图 AI」的城市重新修路——混合路网省下约 7 倍预算，还找到了一条「钱该怎么花最划算」的定律](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-03-chimera-hybrid-visual-diffusion.md) | [`2607.28611`](https://arxiv.org/abs/2607.28611) | 扩散模型 |
 | 2026-08-02 | [🎯 先写「乐谱」再演奏——PhiZero 用机器自创的「物理语言」让视频世界模型真正懂物理](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-02-phizero-physical-language-world-model.md) | [`2607.28624`](https://arxiv.org/abs/2607.28624) | 视觉 |
 | 2026-08-01 | [🎯 给视觉模型配一个「检索专家」——用一个小 token 在图片堆/长视频里精准「找重点」](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-01-retoken-one-token-visual-retrieval.md) | [`2607.28627`](https://arxiv.org/abs/2607.28627) | 视觉 |
