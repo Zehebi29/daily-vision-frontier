@@ -268,6 +268,6 @@ Verify your draft passes ALL of these before committing:
 When done, output:
 ```
 ✅ Paper published: [Title]
-📄 https://github.com/Zehebi29/daily-vision-paper/blob/main/papers/YYYY-MM-DD-slug.md
+📄 https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/YYYY-MM-DD-slug.md
 📇 arXiv: https://arxiv.org/abs/XXXX.XXXXX
 ```

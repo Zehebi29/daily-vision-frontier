@@ -94,7 +94,7 @@ def generate_index():
         tags = p["tags"] or p["categories"]
         
         # Link to the paper file
-        paper_link = f"[{title}](https://github.com/Zehebi29/daily-vision-paper/blob/main/papers/{p['filename']})"
+        paper_link = f"[{title}](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/{p['filename']})"
         
         lines.append(f"| {date} | {paper_link} | {arxiv_link} | {tags} |")
     
