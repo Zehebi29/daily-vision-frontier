@@ -48,4 +48,5 @@ for name, url in URLS.items():
     lines = [l.strip() for l in txt.split("\n") if len(l.strip()) > 40]
     out[name] = {"url": url, "error": None, "text": "\n".join(lines[:60])}
 
-print(json.dumps(out, ensure_ascii=False, indent=1))
+if __name__ == "__main__":
+    print(json.dumps(out, ensure_ascii=False, indent=1))

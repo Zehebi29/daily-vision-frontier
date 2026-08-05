@@ -49,4 +49,5 @@ for name, url in URLS.items():
             dedup.append(l)
     out[name] = {"url": url, "error": None, "text": "\n".join(dedup[:80])}
 
-print(json.dumps(out, ensure_ascii=False, indent=1))
+if __name__ == "__main__":
+    print(json.dumps(out, ensure_ascii=False, indent=1))
