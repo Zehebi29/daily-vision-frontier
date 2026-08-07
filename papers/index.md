@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **11** 篇论文 | 最后更新: 2026-08-05 08:24
+> 共收录 **12** 篇论文 | 最后更新: 2026-08-07 08:46
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-08-07 | [🚗 给「会说话但指不准」的 AI 定损员，配一把「精确到像素的游标卡尺」——用分割模型的地图，堵住 VLM 的「睁眼说瞎话」](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-07-tinydamage-segmentation-grounding-agent.md) | [`2608.02470`](https://arxiv.org/abs/2608.02470) | 视觉 |
 | 2026-08-05 | [🔬 给质检 AI 装一副「节奏耳朵」——在斑马纹一样的晶圆上，专找花纹「断拍」的地方](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-05-texwds-texture-contrast-wafer.md) | [`2603.14282`](https://arxiv.org/abs/2603.14282) | 视觉 |
 | 2026-08-04 | [🔬 给「质检 AI」配一位只盯着错题练的老师傅——两阶段订正让光刻缺陷检测更可靠](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-04-litho-vlm-failure-refinement.md) | [`2606.08908`](https://arxiv.org/abs/2606.08908) | 视觉 |
 | 2026-08-03 | [🔬 AI「高清修复」把芯片缺陷的证据修没了？——质检界的「犯罪现场照片」实验](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-03-waferinspect-sr-evidence-bench.md) | [`2607.17401`](https://arxiv.org/abs/2607.17401) | 视觉 |
