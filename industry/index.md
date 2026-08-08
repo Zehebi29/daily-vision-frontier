@@ -1,9 +1,10 @@
 # 🛠️ 工业界 · 开源视觉工具/模型追踪
 
-> 共收录 **10** 篇业界日报 | 最后更新: 2026-08-07 09:47
+> 共收录 **11** 篇业界日报 | 最后更新: 2026-08-08 09:24
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-08-08 | [🛠️ 2026-08-08 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-08-tools-digest.md) | cloudflare/computer · xlang-ai/Qwen-CUA · AMAP-ML/LongHorizon-Harness |
 | 2026-08-07 | [🛠️ 2026-08-07 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-07-tools-digest.md) | firecrawl/anydoc · SandAI-org/MAGI-2-preview · inspatio/querysplat |
 | 2026-08-06 | [🛠️ 2026-08-06 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-06-tools-digest.md) | HUANGCHIHHUNGLeo/claude-real-video · nv-tlabs/ardy · OpenSenseNova/SenseNova-Vision |
 | 2026-08-05 | [🛠️ 2026-08-05 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-05-tools-digest.md) | browser-use/video-use · firecrawl/pdf-inspector · palmier-io/palmier-pro |
