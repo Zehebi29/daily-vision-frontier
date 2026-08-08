@@ -21,11 +21,11 @@
 - **视觉关联**: Claude 系多模态（视觉理解、截图/文档解析）是 Anthropic API 的主力负载之一 —— 自研推理芯片若覆盖多模态 decode，会直接影响视觉推理的云成本曲线；与 AMD×Taalas（8/6）、Google TPU、AWS Trainium 同一趋势
 - **对比**: 至此 OpenAI/Anthropic/Google/Meta/Amazon 五大模型厂全部押注自研或定制推理硅；三星若拿下代工 = 在 HBM4 之外再获 AI 推理芯片产能话语权（与本期 SK hynix $38B 扩产、CXMT 扩产形成存储+代工双线竞争格局）
 
-### [NVIDIA Alpamayo 2 Super 开放商用：机器人出租车推理模型 + 车端硬件部署的「cloud-to-car」闭环](https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/)
-- **什么**: NVIDIA 8/4 宣布 Alpamayo 2 Super（基于 Cosmos 3 Super Reasoner + RL 后训练）开放商用，采用 Linux Foundation OpenMDW-1.1 许可（允许微调、衍生、商用分发）；整个 Alpamayo 家族（1/1.5/2 Super）全部转商用
-- **性能**: LingoQA（自动驾驶推理基准）第一 —— Lingo-Judge 指标下领先 Qwen2.5-VL 72B 达 17.0 分、Gemini 2.5 Pro 15.1 分、GPT-4o 23.2 分；约为 10B 参数 Alpamayo 1.5 的 3 倍规模；支持 360° 环视相机融合推理，输出轨迹 + 因果链（chain-of-causation）多任务
-- **视觉关联**: 官方定位「cloud-to-car」工作流 —— 云端跑前沿推理生成数据/蒸馏教师，车端跑蒸馏后的高效模型实时推理（即 NVIDIA Drive Thor/Orin 车端硬件）；对自动驾驶公司意味着：开放权重可自训自部署，减少对云端 API 的依赖，长尾场景合成数据 → 间接影响传感器采集预算（与 8/7 Cosmos 3 同主题，本期是车端落地版）
-- **对比**: 7 月已有 200+ 家公司签署开放权重公开信，Alpamayo 商用化是 NVIDIA 在「车端 open model」上对 Tesla FSD 闭源路线的正面回应
+### [Imagination 第 7 任 CEO 定调：砍掉 CPU/NPU 梦想，押注下一代 F 系列 GPU IP（汽车 + 数据中心）](https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/)
+- **什么**: EETimes 8/7（Sally Ward-Foxton）—— 10 年内换了 7 任 CEO 的 GPU IP 公司 Imagination Technologies（PowerVR 架构）明确战略：**放弃 CPU/NPU 业务野心，回归「纯 GPU IP 公司」**（“We are a graphics company and will remain that way”），但把 AI 作为与图形平权的核心支柱；新 CEO Markus Mosen（前 WeEn Semiconductors CEO）上任
+- **性能**: 下一代 **F 系列 GPU 架构**「significant refresh」—— 面向 automotive + data center，硅面积可超 E 系列上限（约 300 mm² @ TSMC N5），宣称达不到 1 PFLOPS 但**下一代可达**（对 IP 授权模式是质变）；两年前借的 $1 亿贷款全部投入该架构；预计 2026 年底发布，已签 2 家大客户；架构统一图形 + AI 避免软件生态碎片化（客户白天云游戏、晚上跑 AI）
+- **视觉关联**: ① 一位中国大型上市 EV 公司正用 Imagination GPU 做 **ADAS 系统**；② 客户用 GPU IP 集成视频编解码/缩放/压缩做定制视觉芯片；③ 可向非 BIS Entity List 的中国「大 GPU」厂商授权（桌面显卡、云游戏、数据中心 AI），但许可条款禁止无人机等军事用途
+- **判断**: 这是「GPU IP 中游」的战略收缩信号 —— 与 NVIDIA/AMD 自有架构、以及本期 AMD×Taalas、Anthropic 自研芯片形成对照：IP 授权模式靠「架构复用 + 客户垂直整合」生存；F 系列能否兑现 1 PFLOPS 级承诺，决定 Imagination 在汽车视觉算力 IP 市场（对手：Arm Mali、芯原、Imagination 自家前代）的位置
 
 ## 🔩 芯片与半导体
 
@@ -55,10 +55,11 @@
 
 ## 📦 开源硬件与工具
 
-### [Hailo-10H Field Notes：Raspberry Pi AI HAT+2 实战笔记 —— 常开边缘 AI 盒子的 LLM/ASR 与「编译你自己的模型」踩坑实录](https://github.com/jaldertech/hailo10h-fieldnotes)
+### [Hailo-10H Field Notes：Raspberry Pi AI HAT+2 实战笔记 —— 常开边缘 AI 盒子的 LLM/ASR 与「编译你自己的模型」踩坑实录（背景：Microchip 已协议收购 Hailo）](https://github.com/jaldertech/hailo10h-fieldnotes)
 - 功能描述: 独立开发者记录在 **Hailo-10H（Raspberry Pi AI HAT+2 NPU）** 上搭建常开边缘 AI 盒子的全过程 —— 本地 Ollama 兼容 LLM API、本地 Whisper ASR API，以及社区最缺的「自编译模型上 Hailo」经验（HailoRT 5.3.0 + AI SW Suite 2026-04，2026 年 5–8 月实测）
 - 上手方式: 仓库含配置脚本与踩坑记录；Hailo-10H 2025 年 7 月才商用、AI HAT+2 2026 年 1 月才开卖，公开实战材料稀缺，该仓库是目前最全的中小模型边缘部署参考
 - 视觉关联: Hailo-10H 是 40 TOPS 级边缘 NPU（Hailo 主打的视觉/生成式混合负载），RPi + HAT+2 组合是 $100 级入门视觉 AI 原型平台 —— 比 Jetson 便宜、生态更草根；配套可见社区 NPU 池化探索（[hailort-k8s-npu-sharing](https://github.com/ssoonan/hailort-k8s-npu-sharing)，用 K8s 共享 NPU）
+- **产业背景（7/28 补录）**: EETimes 报道 **Microchip 已协议收购 Hailo**（金额未披露，预计 Q3 末完成）—— Hailo 2017 年成立于特拉维夫，累计融资 $3.44 亿，约 100 家客户（工业 + 汽车为主）；产品线 Hailo-8（2019，26 TOPS）/ Hailo-15（2023，智能相机 SoC）/ Hailo-10（2025，端侧 GenAI）；开发者社区 1 万人（80% 基于树莓派）。收购后 Hailo 大概率作为独立产品线保留（Microchip 的收购型增长路线，参照其 Micrel/Atmel/Microsemi 先例）；此前 NXP 已在 18 个月前收购 Hailo 竞品 Kinara —— **边缘 AI 芯片进入「配对大厂」的洗牌期**（Axelera/Sima/MemryX 等独立公司面临被 Infineon/Renesas/ST/TI 收编的猜测）
 
 ### [YOLO26 无人机航拍语义分割模型族登上 HF trending：Nano 档可上边缘 NPU 的 aerial 分割](https://huggingface.co/dronefreak/vdd-yolo26n-sem)
 - 功能描述: HF image-segmentation trending 榜出现 dronefreak 的 VDD（无人机视频数据集）语义分割模型族 —— YOLO26 n/s/l/x 四档（vdd-yolo26n-sem 等），基于 Ultralytics/YOLO26 微调，另有 aeroscapes-yolo26s-sem 同族
@@ -84,4 +85,4 @@
 
 ---
 
-*数据窗口 2026-08-04 ~ 2026-08-08 · 来源: SemiAnalysis / EETimes / NVIDIA Blog / Tom's Hardware / SemiEngineering / Sony Semiconductor / OmniVision / GitHub / HuggingFace / AMD Newsroom · Reddit API 仍被限流；OmniVision 新闻页 404、Sony 为 JS 渲染，本周传感器无新品；EETimes 正文抓取超时，Imagination 战略稿（砍 CPU/NPU 押注 GPU IP + 中国）仅按摘要记录未入选；GitHub 新增仓库以低 star 习作为主，仅 Hailo 实战笔记入选*
+*数据窗口 2026-08-04 ~ 2026-08-08 · 来源: SemiAnalysis / EETimes / NVIDIA Blog / Tom's Hardware / SemiEngineering / Sony Semiconductor / OmniVision / GitHub / HuggingFace / AMD Newsroom · Reddit API 仍被限流；OmniVision 新闻页 404、Sony 为 JS 渲染，本周传感器无新品；Alpamayo 2 Super 商用化已在 8/5 日报覆盖，本期不重复；Microchip×Hailo 为 7/28 补录（此前日报遗漏）；GitHub 新增仓库以低 star 习作为主，仅 Hailo 实战笔记入选*
