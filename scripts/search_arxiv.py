@@ -98,14 +98,16 @@ CORE_QUERIES = [
 
 
 def fetch_arxiv(query: str, max_results: int = 5) -> list:
-    """Search arXiv and return parsed entries."""
-    params = urllib.parse.urlencode({
-        "search_query": query,
-        "sortBy": "submittedDate",
-        "sortOrder": "descending",
-        "max_results": max_results,
-    })
-    url = f"{ARXIV_API}?{params}"
+    """Search arXiv and return parsed entries.
+
+    NOTE: the arXiv API treats '+' as the boolean AND operator in the raw
+    query string. urllib's urlencode() would encode '+' as '%2B', which the
+    API then treats as a literal character — silently returning 0 results
+    for queries like 'cat:cs.CV+AND+all:wafer+AND+all:defect'. We therefore
+    percent-encode with quote(..., safe='+') so '+' stays literal.
+    """
+    url = (f"{ARXIV_API}?search_query={urllib.parse.quote(query, safe='+')}"
+           f"&sortBy=submittedDate&sortOrder=descending&max_results={max_results}")
     
     # Respect arXiv rate limit (1 req / 3s)
     elapsed = time.time() - _last_request_time[0]
