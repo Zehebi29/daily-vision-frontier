@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **13** 篇论文 | 最后更新: 2026-08-08 08:32
+> 共收录 **14** 篇论文 | 最后更新: 2026-08-09 08:28
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-08-09 | [🔬 把「大家来找茬」搬进 PCB 质检——先跟完美样板对一遍、圈出可疑处，再让检测器专心找缺陷](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-09-refdiffnet-reference-enhanced-pcb-defect.md) | [`2606.00852`](https://arxiv.org/abs/2606.00852) | 工业缺陷检测 |
 | 2026-08-08 | [🔬 给质检 AI 配一支「顺着发丝划痕描边」的细头笔——Swin 拼全景地图、高清底片补细节、各向异性画笔描细纹](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-08-scratnet-swin-scratch-segmentation.md) | [`2607.10214`](https://arxiv.org/abs/2607.10214) | 视觉 |
 | 2026-08-07 | [🚗 给「会说话但指不准」的 AI 定损员，配一把「精确到像素的游标卡尺」——用分割模型的地图，堵住 VLM 的「睁眼说瞎话」](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-07-tinydamage-segmentation-grounding-agent.md) | [`2608.02470`](https://arxiv.org/abs/2608.02470) | 视觉 |
 | 2026-08-05 | [🔬 给质检 AI 装一副「节奏耳朵」——在斑马纹一样的晶圆上，专找花纹「断拍」的地方](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-05-texwds-texture-contrast-wafer.md) | [`2603.14282`](https://arxiv.org/abs/2603.14282) | 视觉 |
