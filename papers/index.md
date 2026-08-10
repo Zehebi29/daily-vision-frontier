@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **14** 篇论文 | 最后更新: 2026-08-09 08:28
+> 共收录 **15** 篇论文 | 最后更新: 2026-08-10 08:34
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-08-10 | [🔬 给质检学徒发一本「良品速写卡」图鉴——只准用两三种颜色临摹每个局部：临摹得出就是好件，临摹不出就是次品](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-10-conceptadapt-few-shot-anomaly.md) | [`2608.05743`](https://arxiv.org/abs/2608.05743) | 工业缺陷检测 |
 | 2026-08-09 | [🔬 把「大家来找茬」搬进 PCB 质检——先跟完美样板对一遍、圈出可疑处，再让检测器专心找缺陷](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-09-refdiffnet-reference-enhanced-pcb-defect.md) | [`2606.00852`](https://arxiv.org/abs/2606.00852) | 工业缺陷检测 |
 | 2026-08-08 | [🔬 给质检 AI 配一支「顺着发丝划痕描边」的细头笔——Swin 拼全景地图、高清底片补细节、各向异性画笔描细纹](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-08-scratnet-swin-scratch-segmentation.md) | [`2607.10214`](https://arxiv.org/abs/2607.10214) | 视觉 |
 | 2026-08-07 | [🚗 给「会说话但指不准」的 AI 定损员，配一把「精确到像素的游标卡尺」——用分割模型的地图，堵住 VLM 的「睁眼说瞎话」](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-07-tinydamage-segmentation-grounding-agent.md) | [`2608.02470`](https://arxiv.org/abs/2608.02470) | 视觉 |
