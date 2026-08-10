@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **6** 篇硬件日报 | 最后更新: 2026-08-09 10:19
+> 共收录 **7** 篇硬件日报 | 最后更新: 2026-08-10 10:37
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-08-10 | [⚙️ 2026-08-10 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-10-hardware-digest.md) | 索尼与台积电拟在熊本投资 1 万亿日元：2029 量产下一代图像传感器，合资公司供货 iPhone、瞄准 Physical AI · Prophesee 融资 €20M 并发布 Mantara：首个全集成事件相机无人机探测系统（补录） · eyeo 完成 €40M A 轮：纳米光子分色（NCOS）宣称「3 倍感光度、打破分辨率极限」（补录） |
 | 2026-08-09 | [⚙️ 2026-08-09 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-09-hardware-digest.md) | 熊本地震冲击全球最大图像传感器基地：Sony Kumamoto 停产→8/3 恢复，TSMC JASM 仍在检查，车厂与芯片供应链余波未平 · RTX 5090 捆绑 8 块主板出售：零售商「人质式」搭售重现矿潮手法，GPU 供给紧张从涨价升级为渠道扭曲 · CXMT 在 AMD AM5 平台达成 DDR5-8800：国产 DRAM 从「平替」到「竞争者」，逼近 SK hynix |
 | 2026-08-08 | [⚙️ 2026-08-08 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-08-hardware-digest.md) | Sony/OmniVision 本周无新品 + HF 深度模型持续霸榜：传感器板块进入「静默观察期」 · Anthropic 组建自研团队 co-design 推理 ASIC，三星被传为代工伙伴 —— 大模型公司「去 NVIDIA 化」再下一城 · Imagination 第 7 任 CEO 定调：砍掉 CPU/NPU 梦想，押注下一代 F 系列 GPU IP（汽车 + 数据中心） |
 | 2026-08-07 | [⚙️ 2026-08-07 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-07-hardware-digest.md) | Depth Anything V3 (DA3) 1.1 系列 + MoGe-2-LiteRT：深度感知「软件化」趋势在 HF 霸榜 · AMD 收购 Taalas：把「整个 LLM 烧进硅片」的推理芯片初创，对标 NVIDIA×Groq 的 disaggregated inference · Wistron 德州 Fort Worth 工厂投产：GB300 下线、Vera Rubin 备产，「美国制造」AI 超芯片落地 |
