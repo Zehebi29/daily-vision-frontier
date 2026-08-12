@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **8** 篇硬件日报 | 最后更新: 2026-08-11 10:28
+> 共收录 **9** 篇硬件日报 | 最后更新: 2026-08-12 10:41
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-08-12 | [⚙️ 2026-08-12 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-12-hardware-digest.md) | Dirac：NV 色心金刚石量子传感器，用「地球磁场地图」做 GPS 拒止导航 · AMD 反「GPU 中心论」：Ryzen AI X100 + Kria AI SoM 押注人形机器人，126 TOPS 全整合 SoC · NVIDIA 发布 800 VDC 供电架构：AI 工厂从「堆瓦数」转向「改输电路径」，MGX 800VDC 机柜 2026H2 落地 |
 | 2026-08-11 | [⚙️ 2026-08-11 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-11-hardware-digest.md) | ST 发布 VL53L9：54×42 分区、100fps 的 dToF 三维 LiDAR 一体化模块 · HoverAir Versa：可「磁吸变身」无人机的口袋三轴云台相机 · RTX 50 系美国市场价格飙涨最高 39%：Blackwell 涨价潮全面落地 |
 | 2026-08-10 | [⚙️ 2026-08-10 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-10-hardware-digest.md) | 索尼与台积电拟在熊本投资 1 万亿日元：2029 量产下一代图像传感器，合资公司供货 iPhone、瞄准 Physical AI · Prophesee 融资 €20M 并发布 Mantara：首个全集成事件相机无人机探测系统（补录） · eyeo 完成 €40M A 轮：纳米光子分色（NCOS）宣称「3 倍感光度、打破分辨率极限」（补录） |
 | 2026-08-09 | [⚙️ 2026-08-09 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-09-hardware-digest.md) | 熊本地震冲击全球最大图像传感器基地：Sony Kumamoto 停产→8/3 恢复，TSMC JASM 仍在检查，车厂与芯片供应链余波未平 · RTX 5090 捆绑 8 块主板出售：零售商「人质式」搭售重现矿潮手法，GPU 供给紧张从涨价升级为渠道扭曲 · CXMT 在 AMD AM5 平台达成 DDR5-8800：国产 DRAM 从「平替」到「竞争者」，逼近 SK hynix |
