@@ -1,9 +1,10 @@
 # 🛠️ 工业界 · 开源视觉工具/模型追踪
 
-> 共收录 **14** 篇业界日报 | 最后更新: 2026-08-12 09:54
+> 共收录 **15** 篇业界日报 | 最后更新: 2026-08-13 10:12
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-08-13 | [🛠️ 2026-08-13 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-13-tools-digest.md) | Lightricks/LTX-2 · Anionex/agent-vision-toolkit · cactus-compute/needle |
 | 2026-08-12 | [🛠️ 2026-08-12 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-12-tools-digest.md) | Tencent-Hunyuan/Hunyuan3D-WorldClaw · jd-opensource/JoyAI-Video-Edit · QwenLM/Qwen-MM-Plugins |
 | 2026-08-11 | [🛠️ 2026-08-11 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-11-tools-digest.md) | nkxx188/ComfyUI-MiniMaxH3-Easy · 1038lab/ComfyUI-MiniMax-H3-Promptor · MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI |
 | 2026-08-09 | [🛠️ 2026-08-09 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-09-tools-digest.md) | jd-opensource/JoyAI-Video-Edit · Pan-Chera/Multi-Agent-CAD · SandAI-org/MAGI-2-preview |
