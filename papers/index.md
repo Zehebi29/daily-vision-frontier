@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **16** 篇论文 | 最后更新: 2026-08-12 08:46
+> 共收录 **17** 篇论文 | 最后更新: 2026-08-14 08:42
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-08-14 | [🎯 只带一份「文字通缉令」去陌生城市查缺陷，十个 AI 脑补出十张脸——现在再让「目击者」把线索碎片层层拼成「正常人/可疑人」两张拼图画像，文字+画像双锚点一起比对，零样本质检 AI 不再认错人](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-14-dual-anchors-zero-shot-anomaly.md) | [`2608.11933`](https://arxiv.org/abs/2608.11933) | 工业缺陷检测 |
 | 2026-08-12 | [🔬 老师傅拿「黄金样板卡」给学徒纠错，但每句纠错前都要先亮一张「假卡」自证：换卡话就变，说明真在比对样板——出师后学徒两手空空，照样查出缺陷](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-12-adopd-reference-privileged-opd.md) | [`2608.09789`](https://arxiv.org/abs/2608.09789) | 工业缺陷检测 |
 | 2026-08-10 | [🔬 给质检学徒发一本「良品速写卡」图鉴——只准用两三种颜色临摹每个局部：临摹得出就是好件，临摹不出就是次品](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-10-conceptadapt-few-shot-anomaly.md) | [`2608.05743`](https://arxiv.org/abs/2608.05743) | 工业缺陷检测 |
 | 2026-08-09 | [🔬 把「大家来找茬」搬进 PCB 质检——先跟完美样板对一遍、圈出可疑处，再让检测器专心找缺陷](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-09-refdiffnet-reference-enhanced-pcb-defect.md) | [`2606.00852`](https://arxiv.org/abs/2606.00852) | 工业缺陷检测 |
