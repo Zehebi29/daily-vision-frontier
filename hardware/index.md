@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **10** 篇硬件日报 | 最后更新: 2026-08-13 10:44
+> 共收录 **11** 篇硬件日报 | 最后更新: 2026-08-14 11:20
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-08-14 | [⚙️ 2026-08-14 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-14-hardware-digest.md) | 智能手机被芯片涨价「压垮」：iPhone 变贵、廉价机变少 · EIZO Condor T5-IOX：搭载 NVIDIA IGX Thor 的军规级 3U VPX 单板机 · 高通 Snapdragon C 首次公开规格：$300 笔记本的 8 核 ARM SoC |
 | 2026-08-13 | [⚙️ 2026-08-13 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-13-hardware-digest.md) | 索尼 × 台积电 $4.7B 合资「Advanced Vision Semiconductor Manufacturing」：CIS 供应链的历史性合体 · ADI 技术深潜：GMSL 的 Pixel Mode vs Tunnel Mode——车规相机 SerDes 怎么选 · RTX PRO 6000 Blackwell 标价翻倍至 $16,000：工作站显卡进入「爱买不买」模式 |
 | 2026-08-12 | [⚙️ 2026-08-12 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-12-hardware-digest.md) | Dirac：NV 色心金刚石量子传感器，用「地球磁场地图」做 GPS 拒止导航 · AMD 反「GPU 中心论」：Ryzen AI X100 + Kria AI SoM 押注人形机器人，126 TOPS 全整合 SoC · NVIDIA 发布 800 VDC 供电架构：AI 工厂从「堆瓦数」转向「改输电路径」，MGX 800VDC 机柜 2026H2 落地 |
 | 2026-08-11 | [⚙️ 2026-08-11 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-11-hardware-digest.md) | ST 发布 VL53L9：54×42 分区、100fps 的 dToF 三维 LiDAR 一体化模块 · HoverAir Versa：可「磁吸变身」无人机的口袋三轴云台相机 · RTX 50 系美国市场价格飙涨最高 39%：Blackwell 涨价潮全面落地 |
