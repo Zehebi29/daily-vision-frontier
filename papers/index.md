@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **18** 篇论文 | 最后更新: 2026-08-16 08:23
+> 共收录 **19** 篇论文 | 最后更新: 2026-08-17 08:27
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-08-17 | [🎯 AI 质检员的「工厂实战」大考：教科书满分 ≠ 上岗合格，老师傅重新坐回裁判席](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-17-bowtie-human-in-the-loop-anomaly.md) | [`2608.07770`](https://arxiv.org/abs/2608.07770) | 工业缺陷检测 |
 | 2026-08-16 | [🎯 晶圆是病人，AI 是一支「一分钟出病历」的会诊团队](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-16-semifa-agentic-semiconductor-failure-analysis.md) | [`2604.13236`](https://arxiv.org/abs/2604.13236) | 半导体 |
 | 2026-08-14 | [🎯 只带一份「文字通缉令」去陌生城市查缺陷，十个 AI 脑补出十张脸——现在再让「目击者」把线索碎片层层拼成「正常人/可疑人」两张拼图画像，文字+画像双锚点一起比对，零样本质检 AI 不再认错人](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-14-dual-anchors-zero-shot-anomaly.md) | [`2608.11933`](https://arxiv.org/abs/2608.11933) | 工业缺陷检测 |
 | 2026-08-12 | [🔬 老师傅拿「黄金样板卡」给学徒纠错，但每句纠错前都要先亮一张「假卡」自证：换卡话就变，说明真在比对样板——出师后学徒两手空空，照样查出缺陷](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-12-adopd-reference-privileged-opd.md) | [`2608.09789`](https://arxiv.org/abs/2608.09789) | 工业缺陷检测 |
