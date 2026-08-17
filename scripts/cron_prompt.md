@@ -122,6 +122,10 @@ For each method component, strip it to:
 
 ### Paper Structure
 
+> ⏱️ **篇幅预算（控制输出 token）**：全文总篇幅 **≤ 10KB**（约 4500-5500 字）。每节克制：
+> 一句话总结 ≤ 60 字；"大白话"每小节 ≤ 120 字；核心思想拆解 ≤ 3 步、每步 ≤ 100 字；
+> 实验表 ≤ 4 行；局限 ≤ 3 条。宁可精炼，不要为凑模板写重复内容。
+
 ```markdown
 # 🎯 [Paper Title in Chinese, informal]
 

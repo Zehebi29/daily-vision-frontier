@@ -119,16 +119,11 @@ def main():
     )
 
     out = []
-    for m in items:
+    for m in items[:25]:  # cap at 25 to keep LLM input small (~1.5k tokens)
         out.append(
             {
                 "id": m.get("id"),
-                "pipeline_tag": m.get("pipeline_tag"),
                 "downloads": m.get("downloads"),
-                "likes": m.get("likes"),
-                "createdAt": m.get("createdAt"),
-                "trendingScore": m.get("trendingScore"),
-                "tags": [t for t in (m.get("tags") or []) if t in ("quantized", "gguf", "conversational", "custom_code", "text-generation-inference")],
                 "priority_area": m.get("priority_area"),
                 "priority_area_name": m.get("priority_area_name"),
                 "url": f"https://huggingface.co/{m.get('id')}",

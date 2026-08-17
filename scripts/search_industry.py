@@ -259,7 +259,7 @@ def main():
         "date": datetime.now().strftime("%Y-%m-%d"),
         "total_sources": len(results),
         "total_found": len(all_items),
-        "items": all_items[:30],  # Top 30
+        "items": all_items[:20],  # Top 20 (keep LLM input small)
         "sources_summary": {
             k: {"items_count": len(v.get("items", [])), "error": v.get("error")}
             for k, v in results.items()

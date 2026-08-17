@@ -157,6 +157,11 @@ def main():
     for name, url in feeds.items():
         out[f"rss_{name}"] = fetch_rss(url)
 
+    # Cap each list to keep LLM input small
+    for k in list(out.keys()):
+        if isinstance(out[k], list):
+            out[k] = out[k][:12]
+
     print(json.dumps(out, ensure_ascii=False, indent=2))
 
 
