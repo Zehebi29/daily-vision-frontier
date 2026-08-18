@@ -1,9 +1,10 @@
 # 🛠️ 工业界 · 开源视觉工具/模型追踪
 
-> 共收录 **19** 篇业界日报 | 最后更新: 2026-08-17 09:59
+> 共收录 **20** 篇业界日报 | 最后更新: 2026-08-18 21:15
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-08-18 | [🛠️ 2026-08-18 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-18-tools-digest.md) | zhaozhen2333/Turbo-Learning · csslc/PixRestore · TedLentsch/TokenGraph3D |
 | 2026-08-17 | [🛠️ 2026-08-17 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-17-tools-digest.md) | cordiverse/cordis · madeye/ad-skipper · drpwchen/lecture-to-notes |
 | 2026-08-16 | [🛠️ 2026-08-16 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-16-tools-digest.md) | Anionex/dsh-vision-toolkit · 50kg/image-to-slice · Rimagination/h3lite |
 | 2026-08-15 | [🛠️ 2026-08-15 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-15-tools-digest.md) | Lightricks/LTX-2 · TencentARC/SCoPE · cactus-compute/needle |
