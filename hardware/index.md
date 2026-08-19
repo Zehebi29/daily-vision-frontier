@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **13** 篇硬件日报 | 最后更新: 2026-08-17 10:43
+> 共收录 **14** 篇硬件日报 | 最后更新: 2026-08-19 21:21
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-08-19 | [⚙️ 2026-08-19 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-19-hardware-digest.md) | Comcast 把 Xfinity 路由器变成「无摄像头」运动探测器 · 首批 NVIDIA H200 运抵中国：字节、腾讯收货，北京松绑进口限制 · SemiEngineering 圆桌：AI 算力的未来不只靠一种芯片——异构集群成 2027 标配 |
 | 2026-08-17 | [⚙️ 2026-08-17 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-17-hardware-digest.md) | 传感器板块观察：CIS/事件相机新品静默期进入第三周，「新品节奏」让位于「制程军备竞赛」 · Google 联手 AMD 造第十代 TPU：v10 首次引入 on-package CPU 核，为 RL/agentic 推理重构架构 · Microsoft Maia 300 将于 9 月发布：第二代自研推理加速器，TSMC 产能成变量 |
 | 2026-08-16 | [⚙️ 2026-08-16 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-16-hardware-digest.md) | 神经形态计算「缺的不只是芯片」：编译器、HPC 工程师与共享硬件是落地三件套 · AMD Helios：MI455X + EPYC 9006 的机架级 AI 工厂平台，正面叫板 Vera Rubin NVL72 · 1-Megawatt 机架之争：Google/Meta/Microsoft 联合推动 OCP「Mount Diablo」标准 |
 | 2026-08-14 | [⚙️ 2026-08-14 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-14-hardware-digest.md) | 智能手机被芯片涨价「压垮」：iPhone 变贵、廉价机变少 · EIZO Condor T5-IOX：搭载 NVIDIA IGX Thor 的军规级 3U VPX 单板机 · 高通 Snapdragon C 首次公开规格：$300 笔记本的 8 核 ARM SoC |
