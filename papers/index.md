@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **19** 篇论文 | 最后更新: 2026-08-17 08:27
+> 共收录 **20** 篇论文 | 最后更新: 2026-08-24 21:12
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-08-24 | [🎯 质检老师傅换车间，不用重新培训——拿几张良品当"白卡"，把新环境的"偏色滤镜"投影掉](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-24-sparc-few-shot-calibration.md) | [`2608.18585`](https://arxiv.org/abs/2608.18585) | 工业缺陷检测 |
 | 2026-08-17 | [🎯 AI 质检员的「工厂实战」大考：教科书满分 ≠ 上岗合格，老师傅重新坐回裁判席](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-17-bowtie-human-in-the-loop-anomaly.md) | [`2608.07770`](https://arxiv.org/abs/2608.07770) | 工业缺陷检测 |
 | 2026-08-16 | [🎯 晶圆是病人，AI 是一支「一分钟出病历」的会诊团队](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-16-semifa-agentic-semiconductor-failure-analysis.md) | [`2604.13236`](https://arxiv.org/abs/2604.13236) | 半导体 |
 | 2026-08-14 | [🎯 只带一份「文字通缉令」去陌生城市查缺陷，十个 AI 脑补出十张脸——现在再让「目击者」把线索碎片层层拼成「正常人/可疑人」两张拼图画像，文字+画像双锚点一起比对，零样本质检 AI 不再认错人](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-14-dual-anchors-zero-shot-anomaly.md) | [`2608.11933`](https://arxiv.org/abs/2608.11933) | 工业缺陷检测 |
