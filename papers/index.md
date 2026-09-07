@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **21** 篇论文 | 最后更新: 2026-08-31 21:13
+> 共收录 **22** 篇论文 | 最后更新: 2026-09-07 21:07
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-09-07 | [🏭 五个「零培训上岗」的 AI 质检员，怎么合伙不吵架？](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-09-07-calibrated-fusion-logical-anomaly.md) | [`2609.05091`](https://arxiv.org/abs/2609.05091) | 工业缺陷检测 |
 | 2026-08-31 | [🎯 在迷彩服上找破洞——给质检 AI 配一副「老侦察兵」的眼睛](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-31-cf-yolo-camouflaged-micro-defect.md) | [`2608.28070`](https://arxiv.org/abs/2608.28070) | 工业缺陷检测 |
 | 2026-08-24 | [🎯 质检老师傅换车间，不用重新培训——拿几张良品当"白卡"，把新环境的"偏色滤镜"投影掉](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-24-sparc-few-shot-calibration.md) | [`2608.18585`](https://arxiv.org/abs/2608.18585) | 工业缺陷检测 |
 | 2026-08-17 | [🎯 AI 质检员的「工厂实战」大考：教科书满分 ≠ 上岗合格，老师傅重新坐回裁判席](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-17-bowtie-human-in-the-loop-anomaly.md) | [`2608.07770`](https://arxiv.org/abs/2608.07770) | 工业缺陷检测 |
