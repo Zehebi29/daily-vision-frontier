@@ -1,9 +1,10 @@
 # 🛠️ 工业界 · 开源视觉工具/模型追踪
 
-> 共收录 **22** 篇业界日报 | 最后更新: 2026-09-01 21:03
+> 共收录 **23** 篇业界日报 | 最后更新: 2026-09-08 21:04
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-09-08 | [🛠️ 2026-09-08 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-09-08-tools-digest.md) | OpenVDN/vdn-minimax-h3 · dreamers-laboratory/image-to-3d-pipeline · achimala/dream-loop |
 | 2026-09-01 | [🛠️ 2026-09-01 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-09-01-tools-digest.md) | wide-trace/open-higgsfield · deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Qwen/Qwen3.8-Flash-Next |
 | 2026-08-25 | [🛠️ 2026-08-25 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-25-tools-digest.md) | freestylefly/awesome-gpt-image-2 · vanes430/Anima-2.9B-GGUF · PaddlePaddle/PP-DocLayoutV3 |
 | 2026-08-18 | [🛠️ 2026-08-18 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-08-18-tools-digest.md) | zhaozhen2333/Turbo-Learning · csslc/PixRestore · TedLentsch/TokenGraph3D |
