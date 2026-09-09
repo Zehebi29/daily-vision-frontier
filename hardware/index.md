@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **16** 篇硬件日报 | 最后更新: 2026-09-02 21:10
+> 共收录 **17** 篇硬件日报 | 最后更新: 2026-09-09 21:04
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-09-09 | [⚙️ 2026-09-09 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-09-hardware-digest.md) | Sony 半导体 × Aramco 签 MoU：图像传感 + 边缘 AI 进油气工业 · 清华发布感-算-存一体全光内存计算芯片：竞速无人机自主导航演示 · NVIDIA 以 $12.93B 收购 Hugging Face：AI 时代的「微软买 GitHub」 |
 | 2026-09-02 | [⚙️ 2026-09-02 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-02-hardware-digest.md) | Sony×TSMC 就图像传感器合资公司签署最终协议（熊本·2029 量产） · 比亚迪自研 4D 毫米波雷达芯片量产：覆盖 L2-L4、泊车精度 0.05m · NVIDIA Vera CPU 开始规模出货：AWS 收到首台「Vera CPU + Vera Rubin GPU」服务器 |
 | 2026-08-26 | [⚙️ 2026-08-26 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-26-hardware-digest.md) | 智驾摄像头的芯片战争：中国开始进入全球汽车供应链腹地 · d-Matrix Raptor：AI 加速器直叠定制 DRAM，单卡 100 TB/s（Hot Chips 2026） · NVIDIA Vera Rubin NVL72：为 AI Agent 定义「每瓦 30 倍」效率新标准 |
 | 2026-08-19 | [⚙️ 2026-08-19 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-08-19-hardware-digest.md) | Comcast 把 Xfinity 路由器变成「无摄像头」运动探测器 · 首批 NVIDIA H200 运抵中国：字节、腾讯收货，北京松绑进口限制 · SemiEngineering 圆桌：AI 算力的未来不只靠一种芯片——异构集群成 2027 标配 |
