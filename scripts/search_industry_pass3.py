@@ -7,7 +7,7 @@ empty HF-newest list, and Reddit's `hot.json` is 403. This script covers:
   - GitHub trending (all + python), parsed by `<article class="Box-row">` blocks
   - GitHub Search API: new repos created in the last 7 days
   - HF models ranked by trendingScore, over CV pipelines
-  - HF models newest-first by createdAt, filtered to CV pipelines
+  - HF models that are recent *and* notable (likes-ranked, then age-filtered)
   - HF daily papers
   - Reddit via the RSS endpoint (json is 403 / 429)
 """
@@ -131,11 +131,21 @@ def hf_trending(pipelines):
     return out
 
 
-def hf_newest(pipelines, min_signal=30):
+def hf_recent_notable(pipelines, days=30, min_likes=5, window=500):
+    """CV-pipeline models created in the last `days` days with real traction.
+
+    Note: sorting by createdAt is a firehose -- brand-new uploads have zero
+    likes/downloads, so a signal filter over that feed structurally yields
+    nothing. Rank by likes instead, then filter by age.
+    """
+    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
     try:
-        rows = [m for m in js("https://huggingface.co/api/models?sort=createdAt&direction=-1&limit=200")
+        rows = [m for m in js(f"https://huggingface.co/api/models?sort=likes"
+                              f"&direction=-1&limit={window}")
                 if m.get("pipeline_tag") in pipelines
-                and (m.get("downloads", 0) + m.get("likes", 0)) >= min_signal]
+                and (m.get("createdAt") or "")[:10] >= cutoff
+                and m.get("likes", 0) >= min_likes]
+        rows.sort(key=lambda m: -m.get("likes", 0))
         return [{"model_id": m.get("modelId"), "tag": m.get("pipeline_tag"),
                  "dl": m.get("downloads", 0), "likes": m.get("likes", 0),
                  "ts": m.get("trendingScore", 0), "created": (m.get("createdAt") or "")[:10],
@@ -178,7 +188,7 @@ def main():
             "video": "video+generation", "ocr": "document+understanding",
         }, since),
         "hf_trending": hf_trending(CV_PIPES),
-        "hf_newest_cv": hf_newest(CV_PIPES),
+        "hf_recent_notable": hf_recent_notable(CV_PIPES),
         "hf_papers": hf_papers(),
     }
     for sub in ["computervision", "MachineLearning", "StableDiffusion", "LocalLLaMA"]:
