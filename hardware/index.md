@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **18** 篇硬件日报 | 最后更新: 2026-09-16 21:05
+> 共收录 **19** 篇硬件日报 | 最后更新: 2026-09-23 21:02
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-09-23 | [⚙️ 2026-09-23 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-23-hardware-digest.md) | Raspberry Pi 5 双 GMSL2 相机 HAT：MAX96716A 让 Pi 接 10 米同轴车规相机 · WLV-01：可换传感器的开源 DIY 相机，M4/3 全光谱 + 单色版 · 「超算一号」(S-AIDC-1)：中国首颗星上 AI 推理卫星，对地观测处理从小时压到分钟 |
 | 2026-09-16 | [⚙️ 2026-09-16 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-16-hardware-digest.md) | AIMORELOGY Ovis：开源 AI 视觉相机模组，CVITEK CV1842H-P + AI-ISP 全彩夜视 · CamThink NeoEyes NE302：STM32N6 驱动的拇指大 WiFi 6 边缘视觉相机 · NVIDIA RTX Pro 5500 Blackwell：84GB GDDR7 塞进 RTX 5090 同款 GB202 |
 | 2026-09-09 | [⚙️ 2026-09-09 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-09-hardware-digest.md) | Sony 半导体 × Aramco 签 MoU：图像传感 + 边缘 AI 进油气工业 · 清华发布感-算-存一体全光内存计算芯片：竞速无人机自主导航演示 · NVIDIA 以 $12.93B 收购 Hugging Face：AI 时代的「微软买 GitHub」 |
 | 2026-09-02 | [⚙️ 2026-09-02 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-02-hardware-digest.md) | Sony×TSMC 就图像传感器合资公司签署最终协议（熊本·2029 量产） · 比亚迪自研 4D 毫米波雷达芯片量产：覆盖 L2-L4、泊车精度 0.05m · NVIDIA Vera CPU 开始规模出货：AWS 收到首台「Vera CPU + Vera Rubin GPU」服务器 |
