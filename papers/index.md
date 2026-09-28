@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **23** 篇论文 | 最后更新: 2026-09-21 21:07
+> 共收录 **24** 篇论文 | 最后更新: 2026-09-28 21:21
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-09-28 | [🔬 老质检员从不反复凑近看——他闭着眼睛在脑子里"复盘"那个瑕疵：把「局部放大镜」装进 AI 的思考过程](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-09-28-anomaly-lr-latent-reasoning.md) | [`2609.29457`](https://arxiv.org/abs/2609.29457) | 工业缺陷检测 |
 | 2026-09-21 | [🏭 晶圆质检不该硬挂一个科——给 AI 一张「哪些缺陷容易看走眼」的分诊表](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-09-21-wafer-morphology-ambiguity.md) | [`2609.21866`](https://arxiv.org/abs/2609.21866) | 工业缺陷检测 |
 | 2026-09-07 | [🏭 五个「零培训上岗」的 AI 质检员，怎么合伙不吵架？](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-09-07-calibrated-fusion-logical-anomaly.md) | [`2609.05091`](https://arxiv.org/abs/2609.05091) | 工业缺陷检测 |
 | 2026-08-31 | [🎯 在迷彩服上找破洞——给质检 AI 配一副「老侦察兵」的眼睛](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-08-31-cf-yolo-camouflaged-micro-defect.md) | [`2608.28070`](https://arxiv.org/abs/2608.28070) | 工业缺陷检测 |
