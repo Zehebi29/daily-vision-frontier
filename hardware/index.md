@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **19** 篇硬件日报 | 最后更新: 2026-09-23 21:02
+> 共收录 **20** 篇硬件日报 | 最后更新: 2026-09-30 21:05
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-09-30 | [⚙️ 2026-09-30 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-30-hardware-digest.md) | 8devices 8Sight T100：Lynred LWIR 热成像 + STM32N6 NPU，38 克整机离线跑检测 · AMD 82 亿美元收购 World Labs，Fei-Fei Li 出任首席科学家 · Imagination E-Series GPU IP：单核 32 TOPS INT8，图形与 AI 并发 |
 | 2026-09-23 | [⚙️ 2026-09-23 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-23-hardware-digest.md) | Raspberry Pi 5 双 GMSL2 相机 HAT：MAX96716A 让 Pi 接 10 米同轴车规相机 · WLV-01：可换传感器的开源 DIY 相机，M4/3 全光谱 + 单色版 · 「超算一号」(S-AIDC-1)：中国首颗星上 AI 推理卫星，对地观测处理从小时压到分钟 |
 | 2026-09-16 | [⚙️ 2026-09-16 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-16-hardware-digest.md) | AIMORELOGY Ovis：开源 AI 视觉相机模组，CVITEK CV1842H-P + AI-ISP 全彩夜视 · CamThink NeoEyes NE302：STM32N6 驱动的拇指大 WiFi 6 边缘视觉相机 · NVIDIA RTX Pro 5500 Blackwell：84GB GDDR7 塞进 RTX 5090 同款 GB202 |
 | 2026-09-09 | [⚙️ 2026-09-09 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-09-hardware-digest.md) | Sony 半导体 × Aramco 签 MoU：图像传感 + 边缘 AI 进油气工业 · 清华发布感-算-存一体全光内存计算芯片：竞速无人机自主导航演示 · NVIDIA 以 $12.93B 收购 Hugging Face：AI 时代的「微软买 GitHub」 |
