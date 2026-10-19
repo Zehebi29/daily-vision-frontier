@@ -1,9 +1,10 @@
 # 🔬 学术界 · 论文精读归档
 
-> 共收录 **26** 篇论文 | 最后更新: 2026-10-12 21:10
+> 共收录 **27** 篇论文 | 最后更新: 2026-10-19 21:05
 
 | 日期 | 论文标题 | arXiv ID | 领域标签 |
 |------|----------|----------|----------|
+| 2026-10-19 | [🎨 三个人的粉笔字叠在一块黑板上——只知道「谁上来写过」，也要把每一笔颜料判还给作者](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-10-19-separate-wafer-weak-supervision.md) | [`2608.30410`](https://arxiv.org/abs/2608.30410) | 工业缺陷检测 |
 | 2026-10-12 | [🙈 想知道 AI 到底靠哪味「调料」下的判断？——把它藏起来，再问一遍](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-10-12-hide-and-seek-concept-attribution.md) | [`2610.13935`](https://arxiv.org/abs/2610.13935) | 视觉 |
 | 2026-10-05 | [🔍 别再让 AI「凭感觉」说这张脸是假的——请一位老法医，拿 68 项体检清单连续复查 20 次](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-10-05-interpretable-deepfake-forensic-features.md) | [`2610.03380`](https://arxiv.org/abs/2610.03380) | 视觉 |
 | 2026-09-28 | [🔬 老质检员从不反复凑近看——他闭着眼睛在脑子里"复盘"那个瑕疵：把「局部放大镜」装进 AI 的思考过程](https://github.com/Zehebi29/daily-vision-frontier/blob/main/papers/2026-09-28-anomaly-lr-latent-reasoning.md) | [`2609.29457`](https://arxiv.org/abs/2609.29457) | 工业缺陷检测 |
