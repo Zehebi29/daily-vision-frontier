@@ -1,9 +1,10 @@
 # 🛠️ 工业界 · 开源视觉工具/模型追踪
 
-> 共收录 **28** 篇业界日报 | 最后更新: 2026-10-13 21:02
+> 共收录 **29** 篇业界日报 | 最后更新: 2026-10-20 21:02
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-10-20 | [🛠️ 2026-10-20 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-10-20-tools-digest.md) | OpenMOSS/MOSS-Image · Oldcircle/geo-sleuth · speridlabs/iris-3b |
 | 2026-10-13 | [🛠️ 2026-10-13 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-10-13-tools-digest.md) | baidu/Unlimited-OCR · LINs-lab/UltraText_Bench · Deen-Media/dgx-monarch |
 | 2026-10-06 | [🛠️ 2026-10-06 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-10-06-tools-digest.md) | earthtojake/text-to-cad · mudler/locate-anything.cpp · MiniMaxAI/MiniMax-H3 |
 | 2026-09-29 | [🛠️ 2026-09-29 视觉工业界日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/industry/2026-09-29-tools-digest.md) | LibreYOLO/libreyolo · roboflow/rf-detr · zju3dv/geometry-as-address |
