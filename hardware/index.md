@@ -1,9 +1,10 @@
 # ⚙️ 硬件层 · 视觉传感器/芯片/算力追踪
 
-> 共收录 **22** 篇硬件日报 | 最后更新: 2026-10-14 21:03
+> 共收录 **23** 篇硬件日报 | 最后更新: 2026-10-21 21:03
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-10-21 | [⚙️ 2026-10-21 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-10-21-hardware-digest.md) | Synaptics Astra SR200：把「HBM 式」内存搬进 MCU，单芯 400 GOPS 跑视觉 Transformer · GTC Berlin：Vera Rubin 全面量产，DSX POD 把机房部署从 6 个月压到 14 天 · NVIDIA 车规与医疗视觉双线落地：Hyperion 拿下 Volvo/VW/JLR/奔驰，IGX Thor 进放疗闭环 |
 | 2026-10-14 | [⚙️ 2026-10-14 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-10-14-hardware-digest.md) | NVIDIA RTX Spark：128GB 统一内存 + 1 PFLOPS 的「个人 AI 超算」超级芯片，笔记本 10/16 开售 · NVIDIA 在 OCP 峰会开放 Vera Rubin 机架架构：MGX 1.2，单机架 250kW · Quadric GPNPU：一个 ISA 统一标量/向量/矩阵，可编程神经处理器 IP |
 | 2026-10-07 | [⚙️ 2026-10-07 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-10-07-hardware-digest.md) | XIMEA MU003TG-SY-UC：26mm 微型 ToF 模组，Sony IMX556 + 独立 VCSEL 同步接口 · Axelera Europa：629 TOPS INT8 @35W，「存内计算」把数据中心推理塞进嵌入式功耗包络 · NVIDIA DGX Spark 新增 64GB 统一内存 SKU：GB10 Grace Blackwell，本地跑 100B 模型 |
 | 2026-09-30 | [⚙️ 2026-09-30 视觉硬件日报](https://github.com/Zehebi29/daily-vision-frontier/blob/main/hardware/2026-09-30-hardware-digest.md) | 8devices 8Sight T100：Lynred LWIR 热成像 + STM32N6 NPU，38 克整机离线跑检测 · AMD 82 亿美元收购 World Labs，Fei-Fei Li 出任首席科学家 · Imagination E-Series GPU IP：单核 32 TOPS INT8，图形与 AI 并发 |
