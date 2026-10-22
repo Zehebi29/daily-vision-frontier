@@ -1,9 +1,10 @@
 # 🤖 模型层 · 开源模型 & 算力追踪
 
-> 共收录 **9** 篇模型/算力日报 | 最后更新: 2026-10-15 21:05
+> 共收录 **10** 篇模型/算力日报 | 最后更新: 2026-10-22 21:09
 
 | 日期 | 摘要 | 亮点 |
 |------|------|------|
+| 2026-10-22 | [🤖 2026-10-22 模型与算力日报（边缘 / VLA / 小模型）](https://github.com/Zehebi29/daily-vision-frontier/blob/main/models/2026-10-22-models-compute-digest.md) | REKI-2B（Kyutai） · FlowVLA：把「倒多少」从动作里拆出来 · VLA-Rolling：少步去噪 + 动作尾复用 |
 | 2026-10-15 | [🤖 2026-10-15 模型与算力日报（边缘 / VLA / 小模型）](https://github.com/Zehebi29/daily-vision-frontier/blob/main/models/2026-10-15-models-compute-digest.md) | FoveaVLA：用"注视动作"取代腕部相机 · LingBot-VLA 2.0 · LeRobot 原生移植 · Microsoft VITRA-VLA-3B：人手视频预训练 VLA |
 | 2026-10-08 | [🤖 2026-10-08 模型与算力日报（边缘 / VLA / 小模型）](https://github.com/Zehebi29/daily-vision-frontier/blob/main/models/2026-10-08-models-compute-digest.md) | VLA-0-Smol：5 亿参数亚十亿 VLA 配方 · SpikingVLA：异步脉冲 VLA（10-07） · FastOPD：大 VLA 蒸馏到轻量部署（On-Policy Distillation） |
 | 2026-10-01 | [🤖 2026-10-01 模型与算力日报（边缘 / VLA / 小模型）](https://github.com/Zehebi29/daily-vision-frontier/blob/main/models/2026-10-01-models-compute-digest.md) | RoboECC：VLA 边缘-云协同部署（IJCNN 2026） · Toward Real-Time VLAs：π0.5 推理 10 步砍到 2 步（61.6→22ms） · Rho：可高效适配的双臂 VLA 权重族 |
